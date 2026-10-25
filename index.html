@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f2eb">
+  <meta name="description" content="Scopri la villa, i suoi spazi e organizza il tuo soggiorno. Contatta direttamente la proprietà per informazioni e disponibilità.">
+  <title>Villa Nice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">UN LUOGO SPECIALE, DA VIVERE CON CALMA</div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Villa Aurea, homepage">VILLA <span><em>NICE</em></span></a>
+    <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="#villa">La villa</a>
+      <a href="#servizi">Servizi</a>
+      <a href="#galleria">Galleria</a>
+      <!--<a href="#posizione">Posizione</a>---> <!--POSIZIONE-->
+      <a class="nav-button" href="#contatti">Richiedi disponibilità <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-inner">
+        <p class="eyebrow light">IL TUO PROSSIMO SOGGIORNO ESCLUSIVO</p>
+        <h1>VILLA NICE<br><em>Mondello</em></h1>
+        <p class="hero-copy">Privacy, bellezza e momenti da ricordare. Scopri un luogo pensato per rallentare e godersi la vita.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#villa">Scopri la villa <span>↓</span></a>
+          <a class="button button-ghost" href="#contatti">Parliamone <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>PRIVATE VILLA</span><span>OSPITALITÀ, CON UN TOCCO PERSONALE</span></div>
+      <div class="hero-placeholder"><span>LA TUA FOTO PRINCIPALE</span><small>Inserisci la fotografia della villa in style.css</small></div>
+    </section>
+
+    <section class="intro section" id="villa">
+      <div class="section-kicker"><span>01</span> — LA VILLA</div>
+      <div class="intro-grid">
+        <div>
+          <p class="eyebrow">UNO SPAZIO TUTTO TUO</p>
+          <h2>LA BELLEZZA DEI<br>MOMENTI <em>SEMPLICI.</em></h2>
+        </div>
+        <div class="intro-description">
+          <p>Benvenuti a Villa Nice: uno spazio dove comfort, privacy e bellezza si incontrano. Il luogo ideale per condividere momenti speciali con le persone che ami.</p>
+          <p>Dalle mattine lente alle serate in compagnia, ogni dettaglio può trasformare un soggiorno in un ricordo prezioso.</p>
+          <a class="underlined-link" href="#contatti">Organizza il tuo soggiorno <span>↗</span></a>
+        </div>
+      </div>
+      <div class="stats">
+        <div><strong>05</strong><span>CAMERE DA LETTO</span></div>
+        <div><strong>04</strong><span>BAGNI</span></div>
+        <div><strong>LA PIÙ BELLA VISTA</strong><span>SU MONDELLO</span></div>
+      </div>
+    </section>
+
+    <section class="services section" id="servizi">
+      <div class="section-kicker"><span>02</span> — IL SOGGIORNO</div>
+      <div class="section-heading">
+        <div><p class="eyebrow">PENSATA PER TE</p><h2>OGNI DETTAGLIO<br>FA LA <em> DIFFERENZA.</em></h2></div>
+        
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01 / COMFORT</span><div class="service-icon">⌂</div><h3>Spazi da vivere</h3><p>Ambienti accoglienti per rilassarsi, stare insieme e sentirsi a casa.</p></article>
+        <article class="service-card"><span class="service-number">02 / PRIVACY</span><div class="service-icon">◌</div><h3>Il tuo ritmo</h3><p>La libertà di organizzare la giornata secondo i tuoi desideri.</p></article>
+        <article class="service-card"><span class="service-number">03 / OSPITALITÀ</span><div class="service-icon">✳</div><h3><span>Accoglienza personale</span></h3><p>Contatto diretto per informazioni e per preparare al meglio il soggiorno.</p></article>
+      </div>
+    </section>
+
+    
+<section class="gallery section" id="galleria">
+  <div class="section-kicker"><span>03</span> — GALLERIA</div>
+
+  <div class="section-heading gallery-heading">
+    <div>
+      <p class="eyebrow">SCOPRI VILLA NICE</p>
+      <h2>SPAZI CHE RACCONTANO<br>UNA <em>STORIA.</em></h2>
+    </div>
+    <p class="section-side-copy">
+      Cinque camere, quattro bagni e spazi da vivere
+      nel comfort di Villa Nice a Mondello.
+    </p>
+  </div>
+
+  <h3 class="gallery-subtitle">La villa e gli spazi comuni</h3>
+  <div class="photo-grid">
+    <figure class="photo photo-tall">
+      <img src="images/villa.jpg" alt="Esterni della villa">
+      <figcaption><span>01</span> ESTERNI</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="images/soggiorno.jpg" alt="Soggiorno">
+      <figcaption><span>02</span> SOGGIORNO</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="images/cucina.jpg" alt="Cucina">
+      <figcaption><span>03</span> CUCINA</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="images/piscina.jpg" alt="Piscina">
+      <figcaption><span>04</span> PISCINA</figcaption>
+    </figure>
+    <figure class="photo">
+      <img src="images/terrazza.jpg" alt="Terrazza">
+      <figcaption><span>05</span> TERRAZZA</figcaption>
+    </figure>
+  </div>
+
+  <h3 class="gallery-subtitle">Le 5 camere da letto</h3>
+  <div class="photo-grid">
+    <figure class="photo"><img src="images/camera-1.jpg" alt="Camera 1"><figcaption><span>01</span> CAMERA 1</figcaption></figure>
+    <figure class="photo"><img src="images/camera-2.jpg" alt="Camera 2"><figcaption><span>02</span> CAMERA 2</figcaption></figure>
+    <figure class="photo"><img src="images/camera-3.jpg" alt="Camera 3"><figcaption><span>03</span> CAMERA 3</figcaption></figure>
+    <figure class="photo"><img src="images/camera-4.jpg" alt="Camera 4"><figcaption><span>04</span> CAMERA 4</figcaption></figure>
+    <figure class="photo"><img src="images/camera-5.jpg" alt="Camera 5"><figcaption><span>05</span> CAMERA 5</figcaption></figure>
+  </div>
+
+  <h3 class="gallery-subtitle">I 4 bagni</h3>
+  <div class="photo-grid">
+    <figure class="photo"><img src="images/bagno-1.jpg" alt="Bagno 1"><figcaption><span>01</span> BAGNO 1</figcaption></figure>
+    <figure class="photo"><img src="images/bagno-2.jpg" alt="Bagno 2"><figcaption><span>02</span> BAGNO 2</figcaption></figure>
+    <figure class="photo"><img src="images/bagno-3.jpg" alt="Bagno 3"><figcaption><span>03</span> BAGNO 3</figcaption></figure>
+    <figure class="photo"><img src="images/bagno-4.jpg" alt="Bagno 4"><figcaption><span>04</span> BAGNO 4</figcaption></figure>
+  </div>
+</section>
+
+
+    <section class="statement">
+      <div class="statement-inner">
+        <p class="eyebrow light">IL TEMPO PER TE</p>
+        <h2>Non è solo un soggiorno.<br>È <em>il tuo tempo.</em></h2>
+        <p>Lascia fuori la routine. Riscopri il piacere di avere tempo, spazio e libertà.</p>
+        <a class="button button-light" href="#contatti">Inizia da qui <span>↗</span></a>
+      </div>
+      <div class="statement-placeholder">SPAZIO PER UNA FOTO D'ATMOSFERA</div>
+    </section>
+<!-- 
+    <section class="location section" id="posizione">
+      <div class="section-kicker"><span>04</span> — DOVE SIAMO</div>
+      <div class="location-grid">
+        <div><p class="eyebrow">LA DESTINAZIONE</p><h2>MONDELLO<br><em>Palermo</em></h2></div>
+        <div class="location-copy">
+          <p>Villa Nice: si trova a Mondello in provincia di Palermo, in Via Pindaro 20  </p>
+          <div class="location-detail"><span>LOCALITÀ</span><strong>MONDELLO, PA</strong></div>
+          <a class="underlined-link" href="#contatti">Chiedi indicazioni <span>↗</span></a>
+        </div>
+      </div>
+    </section>-->
+
+    <section class="contact" id="contatti">
+      <div class="contact-panel">
+        <p class="eyebrow light">IL TUO PROSSIMO VIAGGIO INIZIA QUI</p>
+        <h2>VILLA NICE TI ASPETTA.<br><em>E tu?</em></h2>
+        <p>Scrivici per conoscere disponibilità, tariffe e dettagli del soggiorno. Ti risponderemo personalmente.</p>
+        <a class="button button-light" id="whatsappLink" href="https://wa.me/" target="_blank" rel="noopener noreferrer">Contatta su WhatsApp <span>↗</span></a>
+      </div>
+      <div class="contact-side">
+         #IMMAGINE
+        <p>Un luogo speciale, da vivere con calma.</p>
+      </div>
+    </section> 
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#home">VILLA <span><em>NICE</em></span></a>
+    <span>Un luogo speciale, da vivere con calma.</span>
+    <a href="#home">TORNA SU ↑</a>
+    <small>© <span id="year">2026</span> Villa <em>Nice</em></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
